@@ -1,3 +1,3 @@
 # DesignDiff
-![icon](./dd-icon.png)
+![icon](./readme/dd-icon.png)
 Project under construction
