@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:background="#777">
+
+    <com.powerapps.designdiff.DesignImageView
+        android:id="@+id/diffImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="centerInside" />
+
+    <include
+        android:id="@+id/verticalGuideFirst"
+        layout="@layout/vertical_guide"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/verticalGuideSecond"
+        layout="@layout/vertical_guide"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/verticalGuidesInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guides_vertical_info_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:visibility="gone"
+        tools:ignore="SpUsage" />
+
+    <include
+        android:id="@+id/horizontalGuideFirst"
+        layout="@layout/horizontal_guide"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/horizontalGuideSecond"
+        layout="@layout/horizontal_guide"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/horizontalGuidesInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/guides_horizontal_info_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:visibility="gone"
+        tools:ignore="SpUsage" />
+
+    <View
+        android:id="@+id/diffDragSeparator"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/pinchTutorialImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_pinch"
+        android:visibility="gone"
+        tools:ignore="ContentDescription"
+        tools:visibility="visible" />
+
+</FrameLayout>

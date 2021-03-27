@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DesignDiff</string>
+    <string name="notification_title">App is drawing layers in foreground ¯\\_(ツ)_/¯</string>
+    <string name="notification_message">Thanks to Android O, you must see this notification.</string>
+</resources>
