@@ -89,7 +89,6 @@ class MainService : Service(), ControlPanelView.Listener, ScreenshotCallback {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             startForeground(1, NotificationCompat.Builder(this, NotificationUtil.getChannelId(this))
                     .setContentTitle(getString(R.string.notification_title))
-                    .setContentText(getString(R.string.notification_message))
                     .setSmallIcon(R.drawable.ic_drag_diff_tile)
                     .build())
         }

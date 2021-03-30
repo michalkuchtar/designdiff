@@ -9,7 +9,7 @@
         android:layout_gravity="center_horizontal"
         android:background="@color/colorAccent" />
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_gravity="center_horizontal"
@@ -17,7 +17,7 @@
         android:scaleType="fitCenter"
         android:src="@drawable/ic_arrow_drop_down" />
 
-    <android.support.v7.widget.AppCompatImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_gravity="bottom|center_horizontal"
