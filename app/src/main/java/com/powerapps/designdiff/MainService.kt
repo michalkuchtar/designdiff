@@ -70,7 +70,7 @@ class MainService : Service(), ControlPanelView.Listener, ScreenshotCallback {
                 } else {
                     onTakeScreenshotError()
                 }
-            }, 200)
+            }, 300)
         }
     }
 

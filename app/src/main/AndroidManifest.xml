@@ -31,7 +31,10 @@
             android:name=".utils.screenshots.RequestScreenshotPermissionActivity"
             android:theme="@style/TransparentTheme" />
 
-        <service android:name=".MainService" />
+        <service
+            android:name=".MainService"
+            android:foregroundServiceType="mediaProjection" />
+
         <service
             android:name=".TileService"
             android:icon="@drawable/ic_drag_diff_tile"
